@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "Hexapod Robot Kinematic Solver and Digital Twin Simulation",
+	"Modules": [
+		{
+			"Name": "HexapodSimulation",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "SocketIOClient",
+			"Enabled": true
+		}
+	]
+} 
